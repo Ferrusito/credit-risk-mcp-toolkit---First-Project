@@ -9,18 +9,18 @@ el Model Context Protocol.
 - Git
 
 ## Instalación
-\`\`\`bash
+```bash
 python -m venv .venv
 .venv\Scripts\activate
 pip install -e ".[dev]"
-\`\`\`
+```
 
 ## Probar localmente
-\`\`\`bash
+```bash
 mcp dev src/credit_risk_mcp/server.py
-\`\`\`
+```
 
 ## Tests
-\`\`\`bash
+```bash
 pytest tests/
-\`\`\`
+```
